@@ -1,6 +1,7 @@
-const body = document.querySelector("body");
-for (let i = 0; i <= 12; i++) {
-  const divs = document.createElement("div");
-  divs.classList.add("mole");
-  body.appendChild(divs);
-}
+import { create_moles } from "../module JS/create_moles.js";
+import { tableau_score } from "../module JS/tableau_score.js";
+import { mole } from "../module JS/mole_interval.js";
+
+create_moles();
+tableau_score();
+mole();

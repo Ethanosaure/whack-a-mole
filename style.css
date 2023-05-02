@@ -3,12 +3,14 @@ body {
   grid-template-columns: 250px 250px 250px 250px;
   grid-template-rows: 220px 220px 220px;
 }
+
 #mole {
   width: 200px;
   height: 200px;
   border: 2px solid black;
   border-radius: 100%;
 }
+
 .tableau_de_score {
   position: absolute;
   right: 500px;
@@ -19,4 +21,4 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
+}/*# sourceMappingURL=style.css.map */
